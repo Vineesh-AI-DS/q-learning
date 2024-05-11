@@ -35,8 +35,9 @@ For example, if the agent is in state S and takes the "R" action, then there is 
 The agent receives a reward of +1 for reaching the goal state (G). The agent receives a reward of 0 for all other states.
 
 ### Graphical Representation
-<p align="center">
-<img width="600" src="qn1.png"> </p>
+
+![image](https://github.com/Vineesh-AI-DS/q-learning/assets/93427254/d060d28e-26e9-4a92-ae86-e303d63c9b19)
+
 
 ## Q LEARNING ALGORITHM
 1. Initialize the Q-values arbitrarily for all state-action pairs.
@@ -103,16 +104,20 @@ def q_learning(env, gamma=1.0, init_alpha=0.5,
 
 ## OUTPUT:
 ### Optimal State Value Functions:
-![](o1.png)
+![image](https://github.com/Vineesh-AI-DS/q-learning/assets/93427254/2977af5a-cba0-4d7d-9b38-513bc3091576)
+
 
 ### Optimal Action Value Functions:
-![](o2.png)
+![image](https://github.com/Vineesh-AI-DS/q-learning/assets/93427254/6da86095-4479-43e7-97dd-42a84b8685e9)
+
 
 ### State value functions of Monte Carlo method:
-![](o3.png)
+![image](https://github.com/Vineesh-AI-DS/q-learning/assets/93427254/e8649c4b-aeda-419d-a09a-b022e3cb323c)
+
 
 ### State value functions of Qlearning method:
-![](o4.png)
+![image](https://github.com/Vineesh-AI-DS/q-learning/assets/93427254/ef6e1c41-bc93-44cb-b1df-9fe41ac0715d)
+
 
 
 ## RESULT:
